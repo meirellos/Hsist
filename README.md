@@ -5,16 +5,25 @@ Caso esteja com problema para rodar o projeto, siga estes passos: <br>
 
 composer create-project laravel/laravel hsist
 
-#Criação controller
-#php artisan make:controller GitController
+#Criação controller <br>
+php artisan make:controller GitController <br>
 
-#Criação model
-#php artisan make:model User
+#Criação model <br>
+php artisan make:model User <br>
 
-#Criação das migrations da tabela.
-#php artisan make:migration create_users_table
+#Criação das migrations da tabela. <br>
+php artisan make:migration create_users_table <br>
 
 #após, rode o comando php artisan migrate.
 
-#em seguida, inicie o servidor com php artisan serve
 
+#em seguida, inicie o servidor com php artisan serve <br>
+
+Imagens do projeto: 
+#Desktop:
+![desktop](https://github.com/meirellos/Hsist/assets/72823459/f079d607-0fd5-494f-9e5e-4a0b745ae349)
+
+#Mobile: 
+![mobile](https://github.com/meirellos/Hsist/assets/72823459/61226e0e-b32a-4ccd-b8b0-e18ffff519cb)
+
+Obrigado!!
