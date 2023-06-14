@@ -1,9 +1,9 @@
-#Projeto feito utilizando PHP, Laravel 9, Javascript, JQuery, MySQL, Postman, HTML, CSS e Bootstrap, Xampp.
-#A criação do banco está na pasta BD-hsist
+Projeto feito utilizando PHP, Laravel 9, Javascript, JQuery, MySQL, Postman, HTML, CSS e Bootstrap, Xampp.
+A criação do banco está na pasta BD-hsist
 
-#Caso esteja com problema para rodar o projeto, siga estes passos:
+Caso esteja com problema para rodar o projeto, siga estes passos:
 
-#composer create-project laravel/laravel hsist
+composer create-project laravel/laravel hsist
 
 #Criação controller
 #php artisan make:controller GitController
