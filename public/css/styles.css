@@ -4,7 +4,8 @@
     font-family: "Montserrat", sans-serif;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -18,20 +19,30 @@ a {
 
 .nav {
     padding: 30px;
-    background: #00bee4;
+    background: rgb(0, 190, 228);
+    background: linear-gradient(
+        7deg,
+        rgba(0, 190, 228, 1) 0%,
+        rgba(0, 102, 228, 1) 100%
+    );
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     text-align: center;
     color: #fff;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 .nav a:hover {
-    color: #dedede!important;
+    color: #dedede !important;
 }
 
-.nav img {
-    width: 150px;
+.header {
+    margin-top: 200px;
 }
-
 .card_git {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -44,7 +55,6 @@ a {
     left: 50%;
     position: relative;
     transform: translateX(-50%);
-    
 }
 
 .form_title {
@@ -61,6 +71,7 @@ a {
 .form_campos {
     text-align: center;
     margin: 20px;
+    margin-top: 50px;
 }
 
 .form_campos input {
@@ -71,12 +82,21 @@ a {
 }
 
 .form_campos button {
-    background: #00bee4;
+    background: rgb(0, 190, 228);
+    background: linear-gradient(
+        7deg,
+        rgba(0, 190, 228, 1) 0%,
+        rgba(0, 102, 228, 1) 100%
+    );
     padding: 8px;
     padding-right: 10px;
     border: none;
     border-radius: 6px;
     color: #fff;
+}
+
+.form_campos button:hover {
+    background: #0094e4;
 }
 
 .search-users {
@@ -87,19 +107,28 @@ a {
     font-size: 20px;
 }
 
-.search-users button{
-    background: #00bee4;
+.search-users button {
+    background: rgb(0, 190, 228);
+    background: linear-gradient(
+        7deg,
+        rgba(0, 190, 228, 1) 0%,
+        rgba(0, 102, 228, 1) 100%
+    );
     padding: 8px;
     padding-right: 10px;
     border: none;
     border-radius: 6px;
     color: #fff;
 }
+.search-users button:hover {
+    background: #0094e4;
+}
 
 .users-result {
     margin-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .users-results-avatar {
@@ -144,16 +173,22 @@ a {
     font-size: 14px;
 }
 
-
 .footer {
-    background-color: #00bee4;
+    background: rgb(0, 190, 228);
+    background: linear-gradient(
+        7deg,
+        rgba(0, 190, 228, 1) 0%,
+        rgba(0, 102, 228, 1) 100%
+    );
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+
+    position: absolute;
+    margin-bottom: -200px;
 }
 
 .footer-content {
@@ -166,28 +201,35 @@ a {
     margin-top: 10px;
 }
 
+.footer-links img {
+    width: 200px;
+}
+
 .footer-links a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
     font-size: 16px;
-    border: 1px solid #dedede;
-    border-radius: 10px;
     padding: 5px;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
     color: #dedede !important;
 }
 
-@media (max-width: 768px) {
+.copy {
+    margin-top: 15px;
+}
+.copy a {
+    border: none;
+}
 
-    
-    .form_campos button{
+@media (max-width: 768px) {
+    .form_campos button {
         margin-top: 5px;
     }
 
-    .footer{
+    .footer {
         position: relative !important;
     }
 
@@ -203,4 +245,3 @@ a {
         margin: 10px 0;
     }
 }
-

@@ -26,7 +26,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <a href="https://www.linkedin.com/in/vinicius-meirelles-4981501b4/" target="_blank">Vinicius Meirelles</a>
+                    <a href="https://www.linkedin.com/in/vinicius-meirelles-4981501b4/" target="_blank">
+                        Vinicius
+                        Meirelles</a>
                 </div>
                 <!--<div class="col-md-4"><img src="{{ asset('img/logo.png') }}" alt=""></div>-->
                 <div class="col-md-6"> <a href="#">Home</a> </div>
@@ -56,35 +58,36 @@
                     <h1>Usuário encontrado:</h1>
                     <div class="users-result">
                         <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>Nome</th>
-                                    <th>Data de Cadastro</th>
-                                    <th>Qnt Repositórios</th>
-                                    <th>Salvar</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td><img src="" class="users-results-avatar" alt="Avatar do usuário"></td>
-                                    <td>
-                                        <p class="users-results-name"></p>
-                                    </td>
-                                    <td>
-                                        <p class="users-results-dt"></p>
-                                    </td>
-                                    <td>
-                                        <p class="users-results-rep"></p>
-                                    </td>
-                                    <td>
-                                        <button class="save">Salvar</button>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Nome</th>
+                                        <th>Data de Cadastro</th>
+                                        <th>Qnt Repositórios</th>
+                                        <th>Salvar</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="" class="users-results-avatar" alt="Avatar do usuário">
+                                        </td>
+                                        <td>
+                                            <p class="users-results-name"></p>
+                                        </td>
+                                        <td>
+                                            <p class="users-results-dt"></p>
+                                        </td>
+                                        <td>
+                                            <p class="users-results-rep"></p>
+                                        </td>
+                                        <td>
+                                            <button class="save">Salvar</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
 
@@ -133,11 +136,17 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-links">
+
                     <a href="mailto:vinmeirellos@gmail.com"><i class="fas fa-envelope"></i> E-mail</a>
                     <a href="https://www.linkedin.com/in/vinicius-meirelles-4981501b4/" target="_blank"><i
                             class="fab fa-linkedin"></i> LinkedIn</a>
                     <a href="https://github.com/meirellos" target="_blank"><i class="fab fa-github"></i> GitHub</a>
 
+                    <div class="copy">
+                        Teste para: <a
+                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwipyMq-3MP_AhX-pZUCHTFiAEoQFnoECBIQAQ&url=http%3A%2F%2Fwww.hsist.com.br%2F&usg=AOvVaw2gnRSvmaVVRNcQYcZoCOfA"><img
+                                src="{{ asset('img/logo.png') }}" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
