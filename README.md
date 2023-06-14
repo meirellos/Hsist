@@ -19,11 +19,11 @@ php artisan make:migration create_users_table <br>
 
 #em seguida, inicie o servidor com php artisan serve <br>
 
-Imagens do projeto: 
-#Desktop:
+Imagens do projeto: <br>
+#Desktop: <br>
 ![desktop](https://github.com/meirellos/Hsist/assets/72823459/f079d607-0fd5-494f-9e5e-4a0b745ae349)
 
-#Mobile: 
+#Mobile:  <br>
 ![mobile](https://github.com/meirellos/Hsist/assets/72823459/61226e0e-b32a-4ccd-b8b0-e18ffff519cb)
-
+<br>
 Obrigado!!
