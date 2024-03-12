@@ -1,3 +1,4 @@
+Projeto de Busca de usuários do github, utilizando a API pública deles.
 Projeto feito utilizando PHP, Laravel 9, Javascript, JQuery, MySQL, Postman, HTML, CSS e Bootstrap, Xampp. <br>
 A criação do banco está na pasta BD-hsist <br>
 
